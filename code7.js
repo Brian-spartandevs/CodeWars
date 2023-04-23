@@ -20,3 +20,7 @@ const quarterOf = (month) => {
     return 4;
   }
 };
+
+cosole.log(quarterOf(2));
+cosole.log(quarterOf(6));
+cosole.log(quarterOf(11));
