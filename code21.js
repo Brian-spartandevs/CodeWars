@@ -19,8 +19,8 @@ Notes
 const highestLowest = (str) => {
   const arr = str.split(" ");
   arr.sort((a, b) => Number(b) - Number(a));
-  const highest = arr.splice(0, 1);
-  const lowest = arr.splice(-1, 1);
+  const highest = arr[0];
+  const lowest = arr[arr.length - 1];
   return `${highest} ${lowest}`;
 };
 
