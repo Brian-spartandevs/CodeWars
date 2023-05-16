@@ -22,3 +22,5 @@ const alternate = (n, firstValue, secondValue) => {
     return result.slice(0, n);
   }
 };
+
+console.log(alternate(5, "true", "false"));
