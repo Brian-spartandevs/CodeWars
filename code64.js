@@ -7,3 +7,6 @@ const simpleMultiplication = (number) => {
     return number * 9;
   }
 };
+
+console.log(simpleMultiplication(2));
+console.log(simpleMultiplication(5));
