@@ -13,6 +13,10 @@ const chromosomeCheck = (sperm) => {
   } else if (sperm === "XY") {
     return "Congratulations! You're going to have a son.";
   } else {
-    return "Invalid input. Sperm must be either 'XX' or 'XY'.";
+    return "Invalid";
   }
 };
+
+console.log(chromosomeCheck('XY'))
+console.log(chromosomeCheck('XX'))
+console.log(chromosomeCheck('YY'))
